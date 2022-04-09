@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SignupActivity">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:gravity="center_horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="8dp">
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_marginTop="10dp"
+                app:srcCompat="@drawable/img" />
+
+            <TextView
+                android:textSize="24dp"
+                android:layout_marginBottom="50dp"
+                android:layout_width="wrap_content"
+                android:text="@string/app_name"
+                android:layout_height="wrap_content"/>
+
+            <EditText
+                android:inputType="textPersonName"
+                android:autofillHints="name"
+                android:ems="10"
+                android:hint="@string/enter_name"
+                android:id="@+id/upnameBox"
+                android:layout_width="match_parent"
+                android:layout_height="48dp" />
+
+            <EditText
+                android:id="@+id/upemailBox"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:autofillHints="emailAddress"
+                android:ems="10"
+                android:hint="@string/enter_email"
+                android:inputType="textEmailAddress" />
+
+            <EditText
+                android:id="@+id/uppasswordBox"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:autofillHints="password"
+                android:ems="10"
+                android:hint="@string/enter_password"
+                android:inputType="textPassword" />
+
+            <Button
+                android:layout_marginTop="24dp"
+                android:layout_marginStart="24dp"
+                android:layout_marginEnd="24dp"
+                android:id="@+id/upcreateaccbutton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/create_account" />
+
+            <Button
+                android:layout_marginBottom="24dp"
+                android:layout_marginStart="24dp"
+                android:layout_marginEnd="24dp"
+                android:id="@+id/uploginbutton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/already_have_an_account" />
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

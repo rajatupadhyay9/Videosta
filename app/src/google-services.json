@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "733263083137",
+    "project_id": "videosta-2d9da",
+    "storage_bucket": "videosta-2d9da.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:733263083137:android:07611010bea8fdab76bf80",
+        "android_client_info": {
+          "package_name": "com.example.videosta"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "733263083137-2vqe45fr3qcki2qf1gd5kjoibbrqh6s1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAZ4GMo7Xl1ht7eLINQ3Mnasf0XhGJcOpI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "733263083137-2vqe45fr3qcki2qf1gd5kjoibbrqh6s1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

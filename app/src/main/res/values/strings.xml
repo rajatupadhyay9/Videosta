@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Videosta</string>
+    <string name="enter_email">Enter Email</string>
+    <string name="enter_password">Enter Password</string>
+    <string name="login">LOGIN</string>
+    <string name="create_account">CREATE ACCOUNT</string>
+    <string name="enter_name">Enter Name</string>
+    <string name="already_have_an_account">ALREADY HAVE AN ACCOUNT ?</string>
+    <string name="join">Join</string>
+    <string name="share">Share</string>
+    <string name="code">Code ..</string>
+    <string name="share_this_code_with_your_friends_to_start_video_call">Share this code with your friends to start video call.</string>
+</resources>
