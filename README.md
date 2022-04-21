@@ -1,7 +1,7 @@
 # Videosta
 
 
-<a href="url"><img src="https://github.com/rajatupadhyay9/Videosta/blob/master/ezgif.com-gif-maker.gif" align="right" height="800" width="400" ></a>
+<a href="url"><img src="https://github.com/rajatupadhyay9/Videosta/blob/master/ywz3vR.gif" align="right" height="800" width="400" ></a>
 
 
 # A video meeting app, can be used to conduct online meetings with people.
